@@ -7,11 +7,12 @@
 //
 
 //#include <stdio.h> //The C-Style Io library
-#include <iostream>
+#include "Controller.hpp"
 
 int main()
 {
-    
+    Controller app; //no perameters == no parens
+    app.start();
     
     return 0;
 }

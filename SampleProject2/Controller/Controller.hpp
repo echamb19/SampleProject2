@@ -9,13 +9,16 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
-#include <iostream> //doesn't know keywords yet
-using namespace std; //to make it know the keywords
-//class writing must be bewteen #define and #endif
-class Controller
-{
+#include <iostream>     //doesn't know keywords yet
+using namespace std;    //to make it know the keywords
+                        //class writing must be bewteen #define and #endif
+class Controller        //class declaration is collection of prototypes
+{                       //grouped into private and public chunks
 private:
+    int specialNumber;
 public:
+    Controller();
+    void start();
 };
 
 
