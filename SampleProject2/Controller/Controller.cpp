@@ -28,3 +28,4 @@ void Controller :: start()
     getline(cin, answer);
     cout << "You typed: " << answer << endl;
 }
+
