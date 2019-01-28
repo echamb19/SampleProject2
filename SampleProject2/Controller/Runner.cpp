@@ -11,8 +11,12 @@
 
 int main()
 {
-    Controller app; //no perameters == no parens
-    app.start();
+//    Controller app; //no perameters == no parens
+//    app.start();
+    
+    //the pointer version of ^that^
+    Controller * app = new Controller();
+    app->start();
     
     return 0;
 }
